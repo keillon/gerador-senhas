@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Random</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gerador de senhas aleatório</h1>
+
+    <main class="container-input">
+        <span>Quantos caracteres: <span id="valor"></span></span>
+        <input type="range" id="slider" class="slider" max="25" min="5" value="10" onclick="gerarValor()"
+>
+        <button class="button" id="button" onclick="gerarValor()"
+>Gerar senha</button>
+    </main>
+
+    <div class="container-password hide" id="container-password">
+        <span class="tittle">sua senha gerada é:</span>
+        <span id="password" class="password" onclick="copyPass()"></span>
+        <span class="tooltip">Clique na senha para copiar 👆</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

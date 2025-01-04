@@ -138,3 +138,38 @@ h1{
 .number{
     max-width: 3rem;
 }
+
+/* footer */
+
+.footer{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    transition: color .5s;
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s;
+    -ms-transition: color .5s;
+    -o-transition: color .5s;
+    position: absolute;
+    bottom: 2rem;
+}
+
+.footer a{
+    color: white;
+    font-weight: 700;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.footer a:hover{
+    opacity: .8;
+    font-weight: 700;
+}
+
+.footer p{
+    font-weight: 400;
+}
